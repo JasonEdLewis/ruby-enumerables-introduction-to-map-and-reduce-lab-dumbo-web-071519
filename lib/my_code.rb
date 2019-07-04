@@ -40,10 +40,8 @@ end
 
 
 
-def reduce_to_total(array)
-  if !start
-    start = 0
-  else
+def reduce_to_total(array,start = 0)
+  
     sum = start
     i = 0
     while i < array.length
