@@ -41,14 +41,13 @@ end
 
 
 def reduce_to_total(array,start = 0)
-  
     sum = start
     i = 0
     while i < array.length
     sum += array[i]
     i += 1
-  end
-  end
+    end
+ 
   sum
 end
 
